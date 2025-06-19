@@ -1,0 +1,7 @@
+.inner-most{
+    color:red ;
+    background-color: black;
+    text-align: center;
+    border: 10px solid violet;
+    border-radius: 3px;
+}
