@@ -1,7 +1,51 @@
-.inner-most{
-    color:red ;
-    background-color: black;
-    text-align: center;
-    border: 10px solid violet;
+.HeaderBody{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
     border-radius: 3px;
+    align-items: center;
+}
+.foodlogoimg{
+    width: 50px;
+    height: 48px;
+    border-radius: 50px;
+    margin-left: 4px;
+}
+.navlist{
+    display: flex;
+    list-style: none;
+    
+}
+.navlist li{
+    margin-left: 5px;
+    margin-right: 4px;
+}
+.searchBar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rescontainer{
+    display: flex;
+    border: 1px solid black;
+    width: 150px;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+.rescardimg{
+    width: 120px;
+    margin-top: 3px;
+    border-radius: 3px;
+}
+.details h4{
+    text-align: center;
+     word-break: break-word;
+}
+.rescardrender{
+    display: flex;
+    flex-wrap: wrap;
 }
